@@ -1,0 +1,144 @@
+<!--Project: Recipe book
+Create a web page with your favorite recipes! The recipe book should have
+a table of contents linking to each recipe below, using internal links.
+Each recipe should have a table for the ingredients, a list of details,
+and a list and/or paragraphs of the steps required. If you use recipes
+from the internet, be sure to add a link to the website.
+
+Use CSS to style the recipe book, using a mix of the simple selectors and
+colors that you've learned.
+
+Tip: Can't find the images you want in our image selector? You can also bring
+ in images from Wikipedia. To do that, use a site-restricted Google search,
+ then click "View image" on the result you like, and copy the URL into your
+ <img> tag. -->
+
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        .recipe {
+            color: brown;
+        }
+
+        table {
+            background-color: lightgrey;
+        }
+        </style>
+    </head>
+    <body>
+
+        <h1>Nina's Recipe Book</h1>
+
+        <h2>Contents:</h2>
+
+        <ol>
+            <li><a href="#meatballs">Meatballs</a></li>
+            <li><a href="#mashedpotatoes">Mashed potatoes</a></li>
+            <li><a href="#sauce">Brown sauce</a></li>
+        </ol>
+
+        <h2 id="meatballs" class="recipe">Meatballs</h2>
+
+        <ul>
+            <li>Time: 45 min</li>
+            <li>Serves: 4 persons</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Minced meat</td>
+                    <td>400g</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1 medium sized</td>
+                </tr>
+                <tr>
+                    <td>Breadcrumbs</td>
+                    <td>2 tablespoons</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong>Chop onion into small pieces.</p>
+        <p><strong>Step 2:</strong>Mix all ingredients.</p>
+        <h2 id="mashedpotatoes" class="recipe">Mashed potatoes</h2>
+
+        <ul>
+            <li>Time: 45 min</li>
+            <li>Serves: 4 persons</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                    <td>Potatoes</td>
+                    <td>1kg</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>3 dl</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>1 tablespoon</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong>Cook the potatoes. Peel them.
+</p>
+        <p><strong>Step 2:</strong>Mash the potatoes. Add milk and butter.
+</p>
+        <h2 id="sauce" class="recipe">Brown sauce</h2>
+
+        <ul>
+            <li>Time: 45 min</li>
+            <li>Serves: 4 persons</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Water</td>
+                    <td>5 dl</td>
+                </tr>
+                <tr>
+                    <td>Brown sauce mix</td>
+                    <td> 1 package</td>
+                </tr>
+                <tr>
+                    <td>Melted butter</td>
+                    <td>1 tablespoon</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong>Mix brown sauce mix with cold water.
+</p>
+        <p><strong>Step 2:</strong>Bring it to a boil. Mix butter.
+</p>
+
+    <p><em>Source: <a href="https://upload.wikimedia.org/wikipedia/commons/7/7c/Spaghetti_and_meatballs_1.jpg">Some recipes websites</a></em></p>
+
+    </body>
+</html>
