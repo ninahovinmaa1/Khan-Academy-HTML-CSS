@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-->https://www.khanacademy.org/computer-programming/spin-off-of-project-blog
+
+A "blog" (or "web log") is an online journal, which one or multiple people
+ update on a frequent basis, like daily, weekly, or monthly. Many new
+ programmers keep blogs to document their journey to becoming a programmer,
+ with updates on what they've learned and what they've made.
+There are many "blogging engines" out there, like WordPress and Blogger, but in
+ this project, you'll make your own blog using HTML and CSS. It should have at
+ least 2 entries, and the table of contents should internally link to each
+ entry. Use CSS text properties to style your blog - like changing the
+ font family, line height, and font styles of various sections.
+If you like your blog, then you could use it to document your journey
+here - make it a featured project on your profile, then people that visit your
+profile will get to read about your journey!
+
+Does your project meet these goals?
+1. Must contain at least two blog posts.
+2. Must have a table of contents that links to the posts.
+3. Must have at least 3 CSS rules.
+4.Must use at least 4 different CSS properties that start with "font-".
+5. Must not have any errors or bad practices.
+6. I certify that this is all my original work. If I took any parts from
+elsewhere, then they were non-essential parts of the project, and they are
+clearly attributed at the top. I will show I agree to this honor code by
+typing "Yes": YES.
+
+<-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body {
+                font-family: "Helvetica", sans-serif;
+                font-size: 13px;
+            }
+
+            #first-post-header {
+                color: pink;
+            }
+
+            #second-post-header {
+                color: lightblue;
+            }
+
+            .date-stamp {
+                font-size: 0.75em;
+                font-style: italic;
+            }
+
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Pedro's beginner blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#first-post">First post!</a></li>
+            <li><a href="#second-post">Second post!</a></li>
+        </ul>
+
+        <h2 id="first-post-header">First post</h2>
+        <h6 class="date-stamp">Posted on some date in some year</h6>
+
+        <p>Something excited happened.</p>
+
+        <h2 id="second-post-header">Second post</h2>
+        <h6 class="date-stamp">Posted on some date in some year</h6>
+
+        <p>Something excited happened, yet again.</p>
+
+    </body>
+</html>
